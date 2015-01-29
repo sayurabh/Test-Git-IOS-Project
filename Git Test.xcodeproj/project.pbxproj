@@ -13,6 +13,7 @@
 		114965F81A7A85D0008E3CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114965F61A7A85D0008E3CE2 /* Main.storyboard */; };
 		114965FA1A7A85D0008E3CE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114965F91A7A85D0008E3CE2 /* Images.xcassets */; };
 		114966061A7A85D0008E3CE2 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 114966051A7A85D0008E3CE2 /* Git_TestTests.m */; };
+		114966121A7A938A008E3CE2 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 114966111A7A938A008E3CE2 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		114965FF1A7A85D0008E3CE2 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		114966041A7A85D0008E3CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		114966051A7A85D0008E3CE2 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		114966101A7A937C008E3CE2 /* CCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		114966111A7A938A008E3CE2 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				114965F61A7A85D0008E3CE2 /* Main.storyboard */,
 				114965F91A7A85D0008E3CE2 /* Images.xcassets */,
 				114965EC1A7A85D0008E3CE2 /* Supporting Files */,
+				114966101A7A937C008E3CE2 /* CCTest.h */,
+				114966111A7A938A008E3CE2 /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				114965F51A7A85D0008E3CE2 /* ViewController.m in Sources */,
+				114966121A7A938A008E3CE2 /* CCTest.m in Sources */,
 				114965F21A7A85D0008E3CE2 /* AppDelegate.m in Sources */,
 				114965EF1A7A85D0008E3CE2 /* main.m in Sources */,
 			);
